@@ -5,7 +5,7 @@ import { useGlobalContext } from './Context';
 const Modal = () => {
   const {isModal,closeModal}=useGlobalContext();
   return (<div className='modal-overlay'>
-      <div className="model-container">
+      <div className="modal-container">
         <h3>modal content</h3>
         <button className='close-modal-btn' onClick={closeModal}>
           <FaTimes/>
